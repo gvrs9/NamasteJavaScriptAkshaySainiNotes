@@ -12,7 +12,7 @@ None of the below are part of Javascript! These are extra superpowers that brows
 
 - setTimeout() : Timer function 
 - DOM APIs : eg.Document.xxxx ; Used to access HTML 
-<html><script><body>..... DOM tree. (Document Object Manipulation)
+&lt;html&gt;&lt;script&gt;&lt;body&gt;..... DOM tree. (Document Object Manipulation)
 - fetch() : Used to make connection with external servers eg. Netflix servers etc.
 
 We get all these inside call stack through *global object* ie. **window**
