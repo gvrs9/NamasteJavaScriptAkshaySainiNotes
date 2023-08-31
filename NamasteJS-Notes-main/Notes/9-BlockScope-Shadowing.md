@@ -25,9 +25,9 @@ if(true){
 * The {} block treats all the statements as one statement.
 * The if doesnt have any curly braces in syntax.
 
-### __BLOCK SCOPE__
+### __BLOCK SCOPE__ :
 
-* What are the variables and functions that can be accessed inside the block.
+* What are all the variables and functions that can be accessed inside the block.
 
 ```javascript
 //code example 3

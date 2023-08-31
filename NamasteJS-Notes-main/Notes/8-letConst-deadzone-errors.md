@@ -1,6 +1,6 @@
-# Episode 8 : let, const, temporal dead zone, types of errors
+# Episode 8 : let, const, Temporal Dead zone and Types of errors(SyntaxError ReferenceError and TypeError)
 
-> let and const declarations are hoisted. But its different from var
+> **<i>let and const</i> declarations are hoisted. But its different from <i>var</i>**
 
 ```javascript
 
@@ -11,7 +11,7 @@ console.log(a); // 10
 var b = 15;
 
 ```
-It looks like let isn't hoisted, **but it is**
+It looks like let isn't hoisted, **But it is!!**
 
 - Both a and b are actually initialized as *undefined* in hoisting stage. But var b is inside the storage space of GLOBAL or in other words var b got attached to the global object(as we saw in EPI 5), and a is in a separate memory(SCRIPT), where it can be
 accessed only after assigning some value to it first.
