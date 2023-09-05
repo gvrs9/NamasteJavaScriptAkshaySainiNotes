@@ -50,7 +50,7 @@ function a() {
 > b is not defined
  --------------------
 - **Scope in JavaScript** is where you can access a particular variable or a function inside the code. i.e., where a particular variable or a function is accessible inside the code.
-- This is the intuition behind **scope** :.
+- This is the intuition behind **Scope** :
 - Scope is directly dependent on the lexical environment.
 - Whenever an Execution Context is created, a Lexical Environment is also created!!
 - **Lexical Environment : local memory + lexical env of its parent**; so suppose c is a function inside function a and a is a function inside GEC, so lexical environment of c = total memory of c =  local memory of c  + reference to the lexical environment of parent a and lexical environment of a = total memory of a = local memory of a + reference to the lexical environment of parent GEC.
